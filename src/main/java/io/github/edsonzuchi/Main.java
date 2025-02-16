@@ -1,7 +1,7 @@
 package io.github.edsonzuchi;
 
-import io.github.edsonzuchi.core.RoomManager;
-import io.github.edsonzuchi.core.impl.RoomManagerImpl;
+import io.github.edsonzuchi.server.core.RoomManager;
+import io.github.edsonzuchi.server.core.impl.RoomManagerImpl;
 
 import java.rmi.RemoteException;
 import java.util.List;

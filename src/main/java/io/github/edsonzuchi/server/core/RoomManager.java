@@ -1,4 +1,4 @@
-package io.github.edsonzuchi.core;
+package io.github.edsonzuchi.server.core;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

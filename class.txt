@@ -1,0 +1,7 @@
+C:\Users\edson\Repositorios\lab_rec\src\main\java\io\github\edsonzuchi\Main.java
+C:\Users\edson\Repositorios\lab_rec\src\main\java\io\github\edsonzuchi\client\HotelClient.java
+C:\Users\edson\Repositorios\lab_rec\src\main\java\io\github\edsonzuchi\server\HotelServer.java
+C:\Users\edson\Repositorios\lab_rec\src\main\java\io\github\edsonzuchi\server\core\RoomManager.java
+C:\Users\edson\Repositorios\lab_rec\src\main\java\io\github\edsonzuchi\server\core\entity\Reserve.java
+C:\Users\edson\Repositorios\lab_rec\src\main\java\io\github\edsonzuchi\server\core\entity\Room.java
+C:\Users\edson\Repositorios\lab_rec\src\main\java\io\github\edsonzuchi\server\core\impl\RoomManagerImpl.java

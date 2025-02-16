@@ -1,8 +1,8 @@
-package io.github.edsonzuchi.core.impl;
+package io.github.edsonzuchi.server.core.impl;
 
-import io.github.edsonzuchi.core.RoomManager;
-import io.github.edsonzuchi.core.entity.Reserve;
-import io.github.edsonzuchi.core.entity.Room;
+import io.github.edsonzuchi.server.core.RoomManager;
+import io.github.edsonzuchi.server.core.entity.Reserve;
+import io.github.edsonzuchi.server.core.entity.Room;
 
 import java.rmi.RemoteException;
 import java.util.ArrayList;

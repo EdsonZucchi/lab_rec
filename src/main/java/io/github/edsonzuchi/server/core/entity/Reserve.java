@@ -1,4 +1,4 @@
-package io.github.edsonzuchi.core.entity;
+package io.github.edsonzuchi.server.core.entity;
 
 public class Reserve {
 
