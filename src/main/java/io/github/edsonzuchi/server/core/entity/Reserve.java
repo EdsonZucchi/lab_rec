@@ -1,5 +1,8 @@
 package io.github.edsonzuchi.server.core.entity;
 
+/**
+* Objeto para armazar a reserva do hospede
+* */
 public class Reserve {
 
     Integer type;

@@ -1,5 +1,8 @@
 package io.github.edsonzuchi.server.core.entity;
 
+/**
+ * Objeto para armazenar informações do quarto
+ */
 public class Room {
 
     Integer quantity;
@@ -34,6 +37,6 @@ public class Room {
 
     @Override
     public String toString() {
-        return quantity+" quartos do tipo "+type+" estão disponíveis por "+price+" reais por noite";
+        return quantity+" quartos do tipo "+type+" estao disponiveis por "+price+" reais por noite";
     }
 }
