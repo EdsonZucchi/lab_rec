@@ -1,41 +1,47 @@
 # Reserva de quartos
 ## Trabalho de recuperação
+### Edson Luiz Zucchi
 
-**_Require_**:
+**_Requisitos_**:
 - IDE : *Intellij*
 - JAVA version: *17*
 - Project manager : *Maven*
 
-**_Compile_**:
+> Observação
+> Substitua _dir_ pelo diretorio do seu projeto, exemplo _C:\Users\edson\Repositorios\lab_rec_
 
-cd C:\Users\edson\Repositorios\lab_rec
 
+### Compilar os jars
+
+```
+rmdir /s /q "dir\out"
+cd _dir_
 dir /s /b src\main\java\*.java > class.txt
-
 javac -d out @class.txt
+```
 
-**_Execute_**:
+### Execução
 
-Client:
-cd out
-start rmiregistry
-java io.github.edsonzuchi.client.HotelServer
-java io.github.edsonzuchi.client.HotelClient
+> Para executar o projeto vai ser necessário a abertura de dois terminais 
+> um para o cliente e outro para o servidor
 
-Sequence:
+**Servidor**
 
-rmdir /s /q "C:\Users\edson\Repositorios\lab_rec\out"
-cd C:\Users\edson\Repositorios\lab_rec
-javac -d out @class.txt
+```
+cd dir
 cd out
 start rmiregistry
 java io.github.edsonzuchi.server.HotelServer
+```
 
+**Cliente**
 
-cd C:\Users\edson\Repositorios\lab_rec\out
+```
+cd dir
+cd out
 java io.github.edsonzuchi.client.HotelClient
+```
 
+### Referência
 
-**_referencia_**:
-
-https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/hello/hello-world.html
+[Getting Started Using Java RMI](https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/hello/hello-world.html)
